@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "698d179d-a4ff-462f-aed1-482be8d8fdc8": {
+        "id": "698d179d-a4ff-462f-aed1-482be8d8fdc8",
+        "parent": null,
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "function.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "bd774351-29e2-4a14-9214-9b6e5da85ed5": {
+        "id": "bd774351-29e2-4a14-9214-9b6e5da85ed5",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "d9ba3624-3a70-455c-99cb-463e07a70781": {
+        "id": "d9ba3624-3a70-455c-99cb-463e07a70781",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "b9b7b1e5-d7b9-476d-ae80-62ea63a9aed0": {
+        "id": "b9b7b1e5-d7b9-476d-ae80-62ea63a9aed0",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "698d179d-a4ff-462f-aed1-482be8d8fdc8"
+    ],
+    "currentFileId": "698d179d-a4ff-462f-aed1-482be8d8fdc8",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubtesttt": {
+        "name": "pubsubtesttt",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 0,
+          "topic": {
+            "name": "testtt",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test-herath-public",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582627444165
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test-herath-public",
+      "url": "https://github.com/Indunil1992/test-herath-public"
+    }
+  }
+}
